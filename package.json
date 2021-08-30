@@ -1,5 +1,6 @@
 {
-  "name": "myfirstreactapp",
+  "homepage": "https://Dchane06.github.io/Updated-Website",
+  "name": "devans-website",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,6 +14,8 @@
     "react-scripts": "4.0.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -37,6 +40,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^3.2.3",
     "web-vitals": "^2.1.0"
   }
 }
